@@ -1,6 +1,7 @@
 # Medical Department Recommendation API
 
 A minimal FastAPI service that recommends the most appropriate medical department based on patient information. This service uses a **Gemini** via **LangChain** to generate department recommendations.
+Access live documentation on http://128.199.126.180:8000/docs
 
 ## Requirements
 
