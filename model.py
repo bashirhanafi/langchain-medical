@@ -25,13 +25,13 @@ class PatientInfo(BaseModel):
 
 # prompt template
 template = """
-You are a hospital department recommendation system.
-Based on the following information:
+Anda adalah sistem rekomendasi departement rumah sakit.
+Berdasarkan informasi berikut:
 - gender: {gender}
 - age: {age}
 - symptoms: {symptoms}
-Determine the most appropriate medical department for this patient.
-Respond with the department name only.
+Tentukan departemen medis yang paling tepat untuk pasien ini.
+Jawab hanya dengan nama departemen saja.
 """
 
 prompt = PromptTemplate(
