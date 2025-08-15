@@ -31,7 +31,8 @@ Berdasarkan informasi berikut:
 - age: {age}
 - symptoms: {symptoms}
 Tentukan departemen medis yang paling tepat untuk pasien ini.
-Jawab hanya dengan nama departemen saja.
+Jawab hanya dengan **nama departemen spesialisasi internasional** (contoh: Neurology, Cardiology, Gastroenterology), 
+jangan gunakan istilah umum atau dalam bahasa Indonesia seperti 'Penyakit Dalam'.
 """
 
 prompt = PromptTemplate(
